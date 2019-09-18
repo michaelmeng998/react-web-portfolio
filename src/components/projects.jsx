@@ -112,6 +112,62 @@ export default class Projects extends Component {
 
               <div
                 className="col-md-4 animate-box"
+                data-animate-effect="fadeInRight"
+              >
+                <div
+                  className="project"
+                  style={{
+                    backgroundImage: "url(images/waterloo-shuffle.png)"
+                  }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="work.html">Waterloo Shuffle</a>
+                      </h3>
+                      <span>Hardware rental e-commerce web application</span>
+                      <p className="icon">
+                        <span>
+                          <a href="https://github.com/michaelmeng998/Waterloo-Shuffle">
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInTop"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/cryptosite.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="work.html">Cryptosite</a>
+                      </h3>
+                      <span>
+                        Real time Cryptocurrency tracking web app built using
+                        Python and Django
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a href="https://github.com/michaelmeng998/Cryptosite">
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 animate-box"
                 data-animate-effect="fadeInTop"
               >
                 <div
