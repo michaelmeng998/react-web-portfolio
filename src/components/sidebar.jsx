@@ -27,9 +27,7 @@ export default class Sidebar extends Component {
               <span className="email">
                 <i className="icon-mail"></i> michaelmeng998@gmail.com
               </span>
-              <span className="phone">
-                <i className="icon-phone"></i> 403 466 7229
-              </span>
+              <span className="phone"></span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -88,8 +86,8 @@ export default class Sidebar extends Component {
             <div className="colorlib-footer">
               <p>
                 <small>
-                  Peace, <i className="icon-heart" aria-hidden="true" />, {"&"}{" "}
-                  Prosperity
+                  Peace, <i className="icon-heart" aria-hidden="true" />,{" "}
+                  {"and"} Prosperity
                 </small>
               </p>
             </div>

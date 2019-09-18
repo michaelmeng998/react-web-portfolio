@@ -28,6 +28,31 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
+                          Software Developer <br></br>
+                          <span>Waterloo, Ontario </span>
+                          <br></br>
+                          <span>Aug. 2019 - Present</span>
+                        </h2>
+                        <h2>Waterloo Startup</h2>
+                        <p>
+                          •Working on mobile food ordering platform... <br></br>
+                          •Using {""}
+                          <strong>React Native, Firebase</strong>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
                           Software Developer Intern <br></br>
                           <span>Waterloo, Ontario </span>
                           <br></br>
@@ -49,10 +74,10 @@ export default class Timeline extends Component {
                           and utilized python RegEx filters to clean and
                           summarize failure description data
                           <br></br>•Worked on the development of a new python
-                          test automation frameworkthatdecreased automated
+                          test automation framework that decreased automated
                           regression run times by 50% to speed up the deployment
                           of the Exstream software suite; Implemented OOP
-                          modular design, framework functions todecrease
+                          modular design, framework functions to decrease
                           generated file sizes, and decreased VM resource usage
                           <br></br>•Developed, troubleshooted and fixed new and
                           existing framework features to improve VM resource
@@ -147,12 +172,12 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
+                      <div className="timeline-icon color-6">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Contract Drone Design <br></br>
+                          Contract Drone Designer <br></br>
                           <span>Guelph, Ontario </span>
                           <br></br>
                           <span>May. 2018 - Aug. 2018</span>
@@ -180,7 +205,7 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-1">
+                      <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
