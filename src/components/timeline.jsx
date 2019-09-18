@@ -182,7 +182,7 @@ export default class Timeline extends Component {
                           <br></br>
                           <span>May. 2018 - Aug. 2018</span>
                         </h2>
-                        <h2>Private Drone Contractor</h2>
+                        <h2>Private Drone Contractor in Australia</h2>
                         <p>
                           •Designed Drone parts using Solidworks and Inventor
                           Software<br></br>
