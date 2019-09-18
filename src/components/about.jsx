@@ -20,6 +20,7 @@ export default class About extends Component {
                         I am currently pursuing a degree in{" "}
                         <strong>
                           Computer Engineering at the University of Waterloo
+                          from 2017 to 2022
                         </strong>
                         . Some of my interests involve Software Development, Web
                         and Mobile Development, Robotics, Artificial
