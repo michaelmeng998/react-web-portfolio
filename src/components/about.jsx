@@ -63,8 +63,8 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Software Languages</h3>
                     <p>
-                      I have experience with Python, C++, C, Javascript, Java,
-                      SQL, HTML, CSS, MATLAB, RISC-V
+                      I have experience with Python, Go, C, C++, JavaScript,
+                      MySQL, TypeScript, HTML, CSS, MATLAB, RISC-V
                     </p>
                   </div>
                 </div>
@@ -77,8 +77,9 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Frameworks</h3>
                     <p>
-                      I have worked with Bootstrap, Angular, Node.js, MongoDB,
-                      Mongoose, React Native, Jest, Django, ROS
+                      I have worked with Gin-Gonic, Node.js, Express.js, Flask,
+                      Django, MongoDB, React Native, React, Angular, Bootstrap,
+                      ROS
                     </p>
                   </div>
                 </div>
@@ -91,8 +92,9 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Technologies</h3>
                     <p>
-                      I am familiar with Linux, Heroku, Firebase, Google Cloud
-                      Platform, Git, SVN, Jenkins, Jira, VirtualBox, Bluetooth
+                      I am familiar with Linux, Kubernetes, Docker, Heroku,
+                      Firebase, Google Cloud Platform, Git, SVN, Jenkins, Jira,
+                      VirtualBox, Bluetooth
                     </p>
                   </div>
                 </div>

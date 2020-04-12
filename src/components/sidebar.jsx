@@ -27,6 +27,9 @@ export default class Sidebar extends Component {
               <span className="email">
                 <i className="icon-mail"></i> michaelmeng998@gmail.com
               </span>
+              <span className="email">
+                <i className="icon-mail"></i> m3meng@uwaterloo.ca
+              </span>
               <span className="phone"></span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">

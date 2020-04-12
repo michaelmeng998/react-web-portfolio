@@ -23,6 +23,61 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Software Engineering Intern (Backend) <br></br>
+                          <span>Waterloo, Ontario </span>
+                          <br></br>
+                          <span>Jan. 2020 - Apr. 2020</span>
+                        </h2>
+                        <h2>Index Exchange</h2>
+                        <p>
+                          •Worked in the Deals & Audiences product development
+                          team <br></br>
+                          •Worked in an agile software development team to build
+                          new micro-services for programmatic deals workflows on
+                          the ad exchange; services were used to support 15% of
+                          IX’s revenue stream <br></br>
+                          •Developed new API services for demand side traders to
+                          view and create deals; responsible for deal discovery
+                          through creating efficient queries that returned large
+                          collections of deals data and building out the API
+                          route handlers/infrastructure
+                          <br></br>
+                          •Improved the test coverage of our data API by 10%
+                          through implementing new methods of dependency
+                          injection, database mocking using go-sqlmock, and
+                          creating granular unit tests and service tests{" "}
+                          <br></br>
+                          •Worked on implementing API client code generation for
+                          Authorization, Web, and Data API's to improve codebase
+                          consistency, readability, and support new CI/CD
+                          automation initiatives
+                          <br></br>
+                          •Worked on a password reset API for a new login
+                          workflow to bridge legacy and new account creation
+                          <br></br>
+                          •Worked on setting up gitlab CI/CD pipelines for our
+                          api services; set up kubernetes auto-deployment and
+                          autoscaling,prometheus metrics monitoring and
+                          alerting, and grafana dashboards <br></br>
+                          •Using {""}
+                          <strong>
+                            Golang, Gin, MySQL, Kubernetes, Docker, Prometheus,
+                            Grafana, Git
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
                         <i className="icon-pen2" />
                       </div>
@@ -35,9 +90,22 @@ export default class Timeline extends Component {
                         </h2>
                         <h2>Waterloo Startup</h2>
                         <p>
-                          •Working on mobile food ordering platform... <br></br>
+                          •Working on a mobile food ordering platform in a small
+                          agile team targetting ghost kitchens <br></br>
+                          •Led the development of image related features for the
+                          merchant and client apps; Worked on creating image
+                          galleries and supporting image features in menu
+                          workflows <br></br> •Implemented a react component
+                          that caches images to reduce firebase storage calls{" "}
+                          <br></br>
+                          •Worked on merchant menu features; created an
+                          inventory management system, user forms, and item
+                          customization features <br></br>
                           •Using {""}
-                          <strong>React Native, Firebase</strong>
+                          <strong>
+                            Javascript, React Native, Redux, Firebase, Xcode,
+                            Android Studio, Git
+                          </strong>
                         </p>
                       </div>
                     </div>
@@ -63,10 +131,10 @@ export default class Timeline extends Component {
                           •Worked in an agile software development team to build
                           devops site features, automation framework features,
                           and CLI tools<br></br>
-                          •Researched, pitched, and succesfully developed an
-                          automated cross-build failure analysis feature for the
+                          •Developed an ease of use data query tool for the
                           devops website that saved the development team over
-                          100 hours/year during automated run analysis
+                          300 hours/year during automated run analysis on large
+                          collections of data
                           <br></br>•Worked on the fullstack development of the
                           feature; wrote optimized SQL queries and string
                           concatenation algorithms
