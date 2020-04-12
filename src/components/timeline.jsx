@@ -91,7 +91,7 @@ export default class Timeline extends Component {
                         <h2>Waterloo Startup</h2>
                         <p>
                           •Working on a mobile food ordering platform in a small
-                          agile team targetting ghost kitchens <br></br>
+                          agile team targeting ghost kitchens <br></br>
                           •Led the development of image related features for the
                           merchant and client apps; Worked on creating image
                           galleries and supporting image features in menu
