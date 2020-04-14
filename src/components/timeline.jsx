@@ -93,12 +93,13 @@ export default class Timeline extends Component {
                         <p>
                           •Working on a mobile food ordering platform in a small
                           agile team targeting ghost kitchens <br></br>
-                          •Led the development of image related features for the
-                          merchant and client apps; Worked on creating image
-                          galleries and supporting image features in menu
-                          workflows <br></br> •Implemented a react component
-                          that caches images to reduce firebase storage calls{" "}
-                          <br></br>
+                          •Led the development of menu related features for the
+                          merchant and client apps utilizing cloud firestore and
+                          firebase storage queries; created services to let
+                          merchants upload, edit, and delete photos linked to
+                          menu items
+                          <br></br> •Implemented a react component that caches
+                          images to reduce firebase API calls <br></br>
                           •Worked on merchant menu features; created an
                           inventory management system, user forms, and item
                           customization features <br></br>
