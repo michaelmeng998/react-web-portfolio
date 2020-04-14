@@ -42,15 +42,16 @@ export default class Timeline extends Component {
                           the ad exchange; services were used to support 15% of
                           IX’s revenue stream <br></br>
                           •Developed new API services for demand side traders to
-                          view and create deals; responsible for deal discovery
-                          through creating efficient queries that returned large
-                          collections of deals data and building out the API
-                          route handlers/infrastructure
+                          view and create deals; responsible for a new deal
+                          discovery feature through creating efficient queries
+                          that returned large collections of deals data and
+                          building out the API route handlers
                           <br></br>
                           •Improved the test coverage of our data API by 10%
-                          through implementing new methods of dependency
-                          injection, database mocking using go-sqlmock, and
-                          creating granular unit tests and service tests{" "}
+                          through new methods of route level dependency
+                          injection used to create granular service tests; wrote
+                          database mocks using go-sqlmock and a request
+                          multiplexer to handle traffic to a test server
                           <br></br>
                           •Worked on implementing API client code generation for
                           Authorization, Web, and Data API's to improve codebase
