@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class About extends Component {
   render() {
@@ -17,15 +17,15 @@ export default class About extends Component {
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>
-                        I am currently pursuing a degree in{" "}
+                        I am currently pursuing a degree in{' '}
                         <strong>
                           Computer Engineering at the University of Waterloo
                           from 2017 to 2022
                         </strong>
                         . Some of my interests involve Software Development, Web
-                        and Mobile Development, Robotics, Artificial
-                        Intelligence, Embedded Systems, Internet of Things and
-                        more :))
+                        and Mobile Development, Data Engineering, Robotics,
+                        Artificial Intelligence, Embedded Systems, Internet of
+                        Things and more :))
                       </p>
                       <p>
                         I am always looking for things to do and ways to
@@ -63,8 +63,22 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Software Languages</h3>
                     <p>
-                      I have experience with Python, Go, C, C++, JavaScript,
-                      MySQL, TypeScript, HTML, CSS, MATLAB, RISC-V
+                      I have experience with Python, Go, C, C++, Java,
+                      JavaScript, TypeScript, HTML, CSS, MATLAB, RISC-V
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 text-center animate-box">
+                <div className="services color-2">
+                  <span className="icon">
+                    <i className="icon-data" />
+                  </span>
+                  <div className="desc">
+                    <h3>Databases</h3>
+                    <p>
+                      I have experience with PostgreSQL, MySQL, MS SQL,
+                      Redshift, Redis, MongoDB, SQLAlchemy, SQLite
                     </p>
                   </div>
                 </div>
@@ -77,9 +91,8 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Frameworks</h3>
                     <p>
-                      I have worked with Gin-Gonic, Node.js, Express.js, Flask,
-                      Django, MongoDB, React Native, React, Angular, Bootstrap,
-                      ROS
+                      I have worked with Node.js, Express.js, Gin-Gonic, Flask,
+                      Swagger, React Native, React, Angular
                     </p>
                   </div>
                 </div>
@@ -87,14 +100,13 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                   <span className="icon">
-                    <i className="icon-data" />
+                    <i className="icon-book" />
                   </span>
                   <div className="desc">
                     <h3>Technologies</h3>
                     <p>
-                      I am familiar with Linux, Kubernetes, Docker, Heroku,
-                      Firebase, Google Cloud Platform, Git, SVN, Jenkins, Jira,
-                      VirtualBox, Bluetooth
+                      I am familiar with AWS, Kubernetes, Docker, Apache
+                      Airflow, Firebase, GCP, Linux, GraphQL, Git
                     </p>
                   </div>
                 </div>

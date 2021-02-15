@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class Projects extends Component {
   render() {
@@ -24,7 +24,40 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/snapp.png)" }}
+                  style={{ backgroundImage: 'url(images/building-up.png)' }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="work.html">Building up</a>
+                      </h3>
+                      <span>
+                        Joined UW Blueprint to develop an e-commerce fundraising
+                        web application for an NPO leading homelessness
+                        prevention in Canada (Raising the Roof)
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a href="https://github.com/uwblueprint/building-up-server">
+                            <i className="icon-github" />
+                          </a>
+                          <span></span>
+                          <a href="https://github.com/uwblueprint/building-up-client">
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: 'url(images/snapp.png)' }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -59,7 +92,7 @@ export default class Projects extends Component {
                 <div
                   className="project"
                   style={{
-                    backgroundImage: "url(images/waterloo-shuffle.png)"
+                    backgroundImage: 'url(images/waterloo-shuffle.png)'
                   }}
                 >
                   <div className="desc">
@@ -85,7 +118,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/form.png)" }}
+                  style={{ backgroundImage: 'url(images/form.png)' }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -115,7 +148,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/cryptosite.png)" }}
+                  style={{ backgroundImage: 'url(images/cryptosite.png)' }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -144,7 +177,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/boba.png)" }}
+                  style={{ backgroundImage: 'url(images/boba.png)' }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -176,7 +209,7 @@ export default class Projects extends Component {
                 <div
                   className="project"
                   style={{
-                    backgroundImage: "url(images/budget-calculator.jpg)"
+                    backgroundImage: 'url(images/budget-calculator.jpg)'
                   }}
                 >
                   <div className="desc">
@@ -205,7 +238,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/pig-game.jpg)" }}
+                  style={{ backgroundImage: 'url(images/pig-game.jpg)' }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -232,7 +265,7 @@ export default class Projects extends Component {
                 <div
                   className="project"
                   style={{
-                    backgroundImage: "url(images/react-portfolio.png)"
+                    backgroundImage: 'url(images/react-portfolio.png)'
                   }}
                 >
                   <div className="desc">
@@ -282,7 +315,7 @@ export default class Projects extends Component {
             >
               <div
                 className="project"
-                style={{ backgroundImage: "url(images/drone.jpg)" }}
+                style={{ backgroundImage: 'url(images/drone.jpg)' }}
               >
                 <div className="desc">
                   <div className="con">
@@ -310,7 +343,7 @@ export default class Projects extends Component {
             >
               <div
                 className="project"
-                style={{ backgroundImage: "url(images/hexapod.jpg)" }}
+                style={{ backgroundImage: 'url(images/hexapod.jpg)' }}
               >
                 <div className="desc">
                   <div className="con">
@@ -339,7 +372,7 @@ export default class Projects extends Component {
             >
               <div
                 className="project"
-                style={{ backgroundImage: "url(images/stewarts.jpg)" }}
+                style={{ backgroundImage: 'url(images/stewarts.jpg)' }}
               >
                 <div className="desc">
                   <div className="con">
@@ -365,7 +398,7 @@ export default class Projects extends Component {
             >
               <div
                 className="project"
-                style={{ backgroundImage: "url(images/contract-drone.jpg)" }}
+                style={{ backgroundImage: 'url(images/contract-drone.jpg)' }}
               >
                 <div className="desc">
                   <div className="con">

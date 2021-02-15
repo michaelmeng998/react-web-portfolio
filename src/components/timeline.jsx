@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class Timeline extends Component {
   render() {
@@ -23,13 +23,91 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Data Engineering Intern <br></br>
+                          <span>Kitchener, Ontario </span>
+                          <br></br>
+                          <span>Sept. 2020 - Dec 2020</span>
+                        </h2>
+                        <h2>ApplyBoard </h2>
+                        <p>
+                          •Expedited the processing of 100K+ student
+                          applications by leading the development of several
+                          critical data pipelines
+                          <br></br>
+                          •Improved the scheduling, monitoring, and reliability
+                          of the data pipelines by migrating workloads from cron
+                          onto Apache Airflow
+                          <br></br>
+                          •Enhanced the maintainability of ETL jobs built using
+                          SQL through using JinjaSQL to template all queries
+                          <br></br>
+                          •Developed an ETL pipeline to track daily status
+                          changes for all student applications and backfill 5
+                          years worth of historical data
+                          <br></br>
+                          •Used {''}
+                          <strong>
+                            Python, PostgreSQL, SQLAlchemy, Redshift, AWS,
+                            Airflow, Cron, Docker
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Project Developer (Volunteer) <br></br>
+                          <span>Remote </span>
+                          <br></br>
+                          <span>Sept. 2020 - Dec 2020</span>
+                        </h2>
+                        <h2>UW Blueprint </h2>
+                        <p>
+                          •Worked in a team of 10 to develop an e-commerce web
+                          application for an NPO leading homelessness prevention
+                          in Canada;{' '}
+                          <a href="https://uwblueprint.org/">learn more</a>{' '}
+                          <br></br>
+                          •Led the integration of Shopify with our backend via
+                          webhooks and optimized page load times through server
+                          side caching (Redis)
+                          <br></br>
+                          •Used {''}
+                          <strong>
+                            Javascript, Node.js, GraphQL, Redis, PostgreSQL,
+                            Shopify, React, Redux, Travis CI
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
                         <h2>
                           Software Engineering Intern (Backend) <br></br>
-                          <span>Waterloo, Ontario </span>
+                          <span>Kitchener, Ontario </span>
                           <br></br>
                           <span>Jan. 2020 - Apr. 2020</span>
                         </h2>
@@ -37,15 +115,9 @@ export default class Timeline extends Component {
                         <p>
                           •Worked in the Deals & Audiences product development
                           team <br></br>
-                          •Worked in an agile software development team to build
-                          new micro-services for programmatic deals workflows on
-                          the ad exchange; services were used to support 15% of
-                          IX’s revenue stream <br></br>
-                          •Developed new API services for demand side traders to
-                          view and create deals; responsible for a new deal
-                          discovery feature through creating efficient queries
-                          that returned large collections of deals data and
-                          building out the API route handlers
+                          •Enabled the world’s largest ad agency to access
+                          premium ad exchange deals by creating microservices
+                          for a new search workflow
                           <br></br>
                           •Improved the test coverage of our data API by 10%
                           through new methods of route level dependency
@@ -65,7 +137,7 @@ export default class Timeline extends Component {
                           api services; set up kubernetes auto-deployment and
                           autoscaling,prometheus metrics monitoring and
                           alerting, and grafana dashboards <br></br>
-                          •Using {""}
+                          •Used {''}
                           <strong>
                             Golang, Gin, MySQL, Kubernetes, Docker, Prometheus,
                             Grafana, Git
@@ -84,29 +156,31 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Software Developer <br></br>
+                          Software Developer (Freelance) <br></br>
                           <span>Waterloo, Ontario </span>
                           <br></br>
                           <span>Aug. 2019 - Present</span>
                         </h2>
-                        <h2>Waterloo Startup</h2>
+                        <h2>Hestia Technologies </h2>
                         <p>
-                          •Working on a mobile food ordering platform in a small
-                          agile team targeting ghost kitchens <br></br>
-                          •Led the development of menu related features for the
-                          merchant and client apps utilizing cloud firestore and
-                          firebase storage queries; created services to let
-                          merchants upload, edit, and delete photos linked to
-                          menu items
-                          <br></br> •Implemented a react component that caches
-                          images to reduce firebase API calls <br></br>
-                          •Worked on merchant menu features; created an
-                          inventory management system, user forms, and item
-                          customization features <br></br>
-                          •Using {""}
+                          •Worked on the development of a food ordering app
+                          targeting ghost kitchens; currently servicing over 200
+                          orders/month;{' '}
+                          <a href="https://www.linkedin.com/company/hestia-technologies-inc/about/">
+                            learn more
+                          </a>{' '}
+                          <br></br>
+                          •Led the deployment and maintenance of our Stripe
+                          payments microservice in AWS Lightsail
+                          <br></br> •Created an inventory management system and
+                          implemented an image caching React component to reduce
+                          Firebase API calls <br></br>
+                          •Worked on merchant menu features, user forms, and
+                          item customization workflow <br></br>
+                          •Used {''}
                           <strong>
-                            Javascript, React Native, Redux, Firebase, Xcode,
-                            Android Studio, Git
+                            JavaScript, React Native, Firebase, AWS (Lightsail),
+                            Apache Server
                           </strong>
                         </p>
                       </div>
@@ -155,9 +229,9 @@ export default class Timeline extends Component {
                           <br></br>•Wrote 100+ new python test automation
                           scripts for build/database coverage during automated
                           regression testing
-                          <br></br>•Used {""}
+                          <br></br>•Used {''}
                           <strong>
-                            Python, CherryPy, SQL Alchemy, Mako, SVN{" "}
+                            Python, CherryPy, SQL Alchemy, Mako, SVN{' '}
                           </strong>
                         </p>
                       </div>
@@ -198,7 +272,7 @@ export default class Timeline extends Component {
                           <br></br>•Researched & developed lane matching and
                           threshold function algorithms using dynamic time
                           warping optimization method
-                          <br></br>•Used {""}
+                          <br></br>•Used {''}
                           <strong>C++, ROS, Python, Ubuntu 16.04, Git</strong>
                         </p>
                       </div>
@@ -223,14 +297,15 @@ export default class Timeline extends Component {
                         <h2>Linamar Gear</h2>
                         <p>
                           •Worked in the linamar gear engineering team on
-                          automation projects to help increase manufacturing
-                          throughput by 30%; designed robot end of arm tooling,
-                          orientation systems, and conveyor equipment on new
-                          production lines for Ford and GM vehicles<br></br>
+                          automation projects to help increase gear
+                          manufacturing throughput by 30%; designed robot end of
+                          arm tooling, orientation systems, and conveyor
+                          equipment on new production lines for Ford and GM
+                          vehicles<br></br>
                           •Led the research & development of 3d printed
                           prototypes for new automated gear orientation systems
                           to reduce fixture costs
-                          <br></br>•Used {""}
+                          <br></br>•Used {''}
                           <strong>SolidWorks, AutoCAD, FEA</strong>
                         </p>
                       </div>
@@ -263,7 +338,7 @@ export default class Timeline extends Component {
                           •Conducted FEA and CFD simulations on drone shell to
                           ensure aerodynamic design as well as lightweight but
                           supported frame structure
-                          <br></br>•Used {""}
+                          <br></br>•Used {''}
                           <strong>SolidWorks, AutoCAD, FEA, CFD</strong>
                         </p>
                       </div>
@@ -307,7 +382,7 @@ export default class Timeline extends Component {
                           through planning and implementation phases to increase
                           process efficiency by 30% and save $200K in labor
                           spending’s annually
-                          <br></br>•Used {""}
+                          <br></br>•Used {''}
                           <strong>AutoCAD, Excel</strong>
                         </p>
                       </div>
@@ -332,7 +407,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Wireless Systems Software Research Engineering Intern{" "}
+                          Wireless Systems Software Research Engineering Intern{' '}
                           <br></br>
                           <span>Waterloo, Ontario </span>
                           <br></br>
@@ -357,7 +432,7 @@ export default class Timeline extends Component {
                           using fourier transforms and other signal processing
                           methods to provide real-time detection feedback during
                           development
-                          <br></br>•Used {""}
+                          <br></br>•Used {''}
                           <strong>C, Python, MATLAB, Git</strong>
                         </p>
                       </div>
