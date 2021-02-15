@@ -79,7 +79,7 @@ export default class Timeline extends Component {
                         <p>
                           •Worked in a team of 10 to develop an e-commerce web
                           application for an NPO leading homelessness prevention
-                          in Canada;{' '}
+                          in Canada (Raising the Roof);{' '}
                           <a href="https://uwblueprint.org/">learn more</a>{' '}
                           <br></br>
                           •Led the integration of Shopify with our backend via
