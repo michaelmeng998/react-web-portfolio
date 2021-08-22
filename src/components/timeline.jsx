@@ -23,6 +23,59 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Software Engineering Intern - Verification Methodology
+                          and Tooling <br></br>
+                          <span>Austin, TX (Remote) </span>
+                          <br></br>
+                          <span>May. 2021 - Aug 2021</span>
+                        </h2>
+                        <h2>AMD (Advanced Micro Devices) </h2>
+                        <p>
+                          •Developed key features on a scalable data
+                          infrastructure tool to report on 1M+ daily processor
+                          simulations (Ryzen, Epyc, etc.)
+                          <br></br>
+                          •Increased efficiency to debug failing simulations by
+                          leading the development of a fulltext search service
+                          to find similar errors (like an internal stack
+                          overflow for AMD projects)
+                          <br></br>
+                          •Optimized user search results in Elasticsearch by
+                          writing a query to support proximity-relevance
+                          matching on simulation errors
+                          <br></br>
+                          •Created advanced search components in Vue to enable
+                          engineers to run fulltext search on simulation errors
+                          <br></br>
+                          •Reduced the time for users to find similar results by
+                          developing a faceted search and navigation component
+                          into the search workflow on the UI
+                          <br></br>
+                          •Captured live and daily simulation performance
+                          metrics using scheduled Celery tasks and Redis as a
+                          cache/message broker
+                          <br></br>
+                          •Used {''}
+                          <strong>
+                            Python, FastAPI, Kafka, Celery, Elasticsearch,
+                            Redis, PostgreSQL, SQLAlchemy, Vue, Kubernetes,
+                            Docker, Azure
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
                       </div>
@@ -163,9 +216,9 @@ export default class Timeline extends Component {
                         </h2>
                         <h2>Hestia Technologies </h2>
                         <p>
-                          •Worked on the development of a food ordering app
-                          targeting ghost kitchens; currently servicing over 200
-                          orders/month;{' '}
+                          •Developed critical inventory features for a food
+                          ordering app with a $10K gross merchandise value
+                          within Q1 2020,
                           <a href="https://www.linkedin.com/company/hestia-technologies-inc/about/">
                             learn more
                           </a>{' '}
@@ -197,12 +250,13 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Software Developer Intern <br></br>
+                          Software Engineering Intern - Exstream Product Team{' '}
+                          <br></br>
                           <span>Waterloo, Ontario </span>
                           <br></br>
                           <span>May. 2019 - Aug. 2019</span>
                         </h2>
-                        <h2>Opentext Exstream Devops and Framework Team</h2>
+                        <h2>Opentext</h2>
                         <p>
                           •Worked in an agile software development team to build
                           devops site features, automation framework features,

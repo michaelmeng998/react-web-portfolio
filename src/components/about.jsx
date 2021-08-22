@@ -78,7 +78,7 @@ export default class About extends Component {
                     <h3>Databases</h3>
                     <p>
                       I have experience with PostgreSQL, MySQL, MS SQL,
-                      Redshift, Redis, MongoDB, SQLAlchemy, SQLite
+                      Elasticsearch, Redis, Redshift, SQLAlchemy, SQLite
                     </p>
                   </div>
                 </div>
@@ -91,8 +91,9 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Frameworks</h3>
                     <p>
-                      I have worked with Node.js, Express.js, Gin-Gonic, Flask,
-                      Swagger, React Native, React, Angular
+                      I have worked with FastAPI, Node.js, Express.js,
+                      Gin-Gonic, Flask, Swagger, Vue, React Native, React,
+                      Angular
                     </p>
                   </div>
                 </div>
@@ -105,8 +106,8 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Technologies</h3>
                     <p>
-                      I am familiar with AWS, Kubernetes, Docker, Apache
-                      Airflow, Firebase, GCP, Linux, GraphQL, Git
+                      I am familiar with Kafka, Celery, Kubernetes, Docker,
+                      Airflow, Azure, AWS, Firebase, Linux, GraphQL, Git
                     </p>
                   </div>
                 </div>
