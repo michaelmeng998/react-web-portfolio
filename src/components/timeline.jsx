@@ -28,6 +28,56 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
+                          Production Engineer <br></br>
+                          <span>Menlo Park, CA</span>
+                          <br></br>
+                          <span>July. 2022 - April 2023</span>
+                        </h2>
+                        <h2>Meta</h2>
+                        <p>
+                          •Worked on ZippyDB{' '}
+                          <a href="https://engineering.fb.com/2021/08/06/core-data/zippydb/">
+                            (FB Engineering blog post)
+                          </a>{' '}
+                          , the largest geographically distributed key-value
+                          store for user data and metadata in the family of apps
+                          (FB, IG, WhatsApp) serving over {''}{' '}
+                          <strong>1B</strong> QPS across all usecases
+                          <br></br>
+                          •Developed an e2e automation service to enable a
+                          highly scalable and reliable hands-off storage backend
+                          migration process from direct attached flash to a
+                          disaggregated warm storage architecture to migrate
+                          over {''} <strong>10PB+</strong> weekly
+                          <br></br>
+                          •Worked on adding multi-tenancy support of ZippyDB
+                          customers on the same regional disaggregated storage
+                          clusters to provide read and write bandwidth
+                          guarantees and avoid cluster resource starvation
+                          <br></br>
+                          •Created resource healthchecks on cluster expansion
+                          tooling to avoid capacity overprovisioning related
+                          SEVs
+                          <br></br>
+                          •Used {''}
+                          <strong>
+                            Python, Rust, C++, Workflow Engine, Distributed
+                            Storage Systems, RocksDB, Linux
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
                           Software Engineering Intern - Verification Methodology
                           and Tooling <br></br>
                           <span>Austin, TX (Remote) </span>
