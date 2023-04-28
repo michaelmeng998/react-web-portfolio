@@ -61,8 +61,8 @@ export default class Timeline extends Component {
                           <br></br>
                           •Used {''}
                           <strong>
-                            Python, Rust, C++, Workflow Engine, Distributed
-                            Storage Systems, RocksDB, Linux
+                            Python, Rust, C++, Thrift, Workflow Engine,
+                            Distributed Storage Systems, RocksDB, Linux
                           </strong>
                         </p>
                       </div>
